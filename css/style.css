@@ -209,7 +209,9 @@ h2{
 @media (max-width: 872px) {
 	.hero{
 		background:url(../img/rocks-mobile.jpg)no-repeat center;
-		height:100%;}
+		background-size: cover;
+		height:100%;
+		width:auto;}
 	
 	.container{
 		width:300px;
@@ -227,12 +229,15 @@ h2{
 	.nav1{
 		width:100%;
 		height:80px;
-		margin:0;
+		margin-top:5%;
 		padding:0;						
 		float: left;}
 
 		h1{
-		font-size: 11px;}
+		font-size: 11px;
+		position: relative;
+		transform: translate(0,-90%);
+		}
 
 	.breaker1 p{
 	font-size: 15px;}
