@@ -103,10 +103,10 @@ h2{
 
 
 .hero{
-	background:url(../img/rocks1.jpg)no-repeat fixed center;
+	background:url(../img/rocks1.jpg)no-repeat center;
+	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
-	width:auto;
 	display:flex;}
 
 
@@ -145,7 +145,8 @@ h2{
 	display:none;}
 
 .bus{
-	background: url(../img/bus.jpg)no-repeat fixed;
+	background: url(../img/bus.jpg)no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	height:100vh;
 }
@@ -164,15 +165,19 @@ h2{
 
 
 @media (max-width: 1000px) {
-    .element1 {
+    .hero {
         background-attachment: scroll;
     }
+	.bus {
+		background-attachment: scroll;
+	}
 }
 /*  Mobile Site */
 @media (max-width: 872px) {
 	.hero{
-		background:url(../img/rocks1.jpg)no-repeat fixed;
-		background-size: 1100px 100%;}
+		background:url(../img/rocks1.jpg)no-repeat left;
+		height:100%;
+		}
 	
 	.container{
 		width:300px;
