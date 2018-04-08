@@ -27,6 +27,7 @@ body{
 	background-color:#000000;}
 
 header{
+	background: rgba(199,199,199,0.50);
 	display:none;
 	width: 100%;
 	height: 100px;
@@ -76,6 +77,26 @@ h2{
 	padding:50px 80px;
 }
 .breaker1 p{
+	text-align: center;
+	font-family:"source-semi";
+	font-size: 20px;
+	color:#FFFFFF;
+}
+.breaker2 h2{
+	color:white;
+	border: solid;
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-color:white;
+	display: inline-block;
+	padding:4px;
+}
+.breaker2{
+	background-color:coral;		
+	text-align: center;
+	padding:50px 80px;
+}
+.breaker2 p{
 	text-align: center;
 	font-family:"source-semi";
 	font-size: 20px;
@@ -148,10 +169,13 @@ h2{
 	background: url(../img/bus.jpg)no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height:100vh;
+	height:50%;
 }
 
-
+.map{
+	height:1000px;
+	background-color:#FFFFFF;
+}
 
 
 
@@ -166,29 +190,44 @@ h2{
 
 @media (max-width: 1000px) {
     .hero {
-        background-attachment: scroll;
-    }
+        background-attachment: scroll;}
 	.bus {
-		background-attachment: scroll;
-	}
+		background-attachment: scroll;}
 }
+
 /*  Mobile Site */
 @media (max-width: 872px) {
 	.hero{
 		background:url(../img/rocks1.jpg)no-repeat left;
-		height:100%;
-		}
+		height:100%;}
 	
 	.container{
 		width:300px;
-		height:250px;
-	}
+		height:250px;}
 	.container p{
 	font-size: 30px;}
-	.nav2 a{
-		font-size: 15px;
+	
+	.nav2 {		
 		display:none;}
-	h1 {
-		font-size: 12px;}
+	
+	.logo{
+		width:40px;
+		height:40px;
+		margin-top:2%;
+		background-image:url(../img/axa-logo.png);
+		background-size: contain;
+		float: left;}
+	.nav1{
+		width:100%;
+		height:80px;
+		margin:0;
+		padding:0;						
+		float: left;}
+
+	h1{
+		font-size: 11px;
+	}
+
+
 }
 	
