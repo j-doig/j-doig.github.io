@@ -112,6 +112,12 @@ h2{
 	font-size: 20px;
 	color:#FFFFFF;
 }
+.visalink{
+	text-decoration: none;
+	text-decoration-style: none;
+	color:red;
+	
+}
 .nav2{
 	width:50%;
 	height:80px;
@@ -179,14 +185,24 @@ h2{
 	background: url(../img/bus.jpg)no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height:50%;
-}
+	height:50%;}
 
 .map{
-	height:1000px;
+	height:100vh;
 	background-color:#FFFFFF;
-}
+	display:flex;}
 
+.holder{
+	background:url(../img/map.jpeg)no-repeat;
+	background-size:100% 100%;
+	width:80%;
+	height:80%;
+	background-color: red;
+	margin:auto;}
+
+.hideme{
+	opacity:0;
+}
 
 
 
@@ -241,9 +257,5 @@ h2{
 	.bus{
 		background:url(../img/bus.jpg)center;
 		height:700px;
-		width:auto;
-	}
-	
-
-}
+		width:auto;}}
 	
