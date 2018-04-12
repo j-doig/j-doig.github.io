@@ -230,7 +230,7 @@ h2{
 	border-width: 0px;}
 .spacer{
 	display:block;
-	height:0.5px;
+	height:1%;
 }
 
 
@@ -297,7 +297,22 @@ h2{
 	background-color: red;
 	margin:auto;}
 
+.footer-holder a{
+	font-size:12px;}
 
+.footer-holder a:first-child
+{
+	border-width: 0px;}
+.spacer{
+	display:block;
+	height:1%;
+}
+
+	
+	
+	
+	
+	
 
 
 }
