@@ -165,6 +165,7 @@ h2{
 	color:#FFFFFF;
 	font-family:"source-semi";
 	font-size: 100px;
+	letter-spacing: 10px;
 	}
 
 .box1{
@@ -201,7 +202,15 @@ h2{
 	width:80%;
 	height:80%;
 	background-color: red;
-	margin:auto;}
+	margin:auto;
+	display:flex;}
+.button{
+	width:400px;
+	height:100px;
+	background:url(../img/button.png)no-repeat;
+	background-size:cover;
+	margin:auto;
+}
 
 .hideme{
 	opacity:0;}
@@ -215,12 +224,12 @@ h2{
 	display: inline-block;
 	margin:auto;}
 .footer-holder a{
-	font-size:25px;
+	font-size:23px;
 	text-decoration: none;
 	text-decoration-style: none;
 	color:darkgrey;
 	margin:5px;
-	padding:18px;
+	padding:10px;
 	border-left:solid;
 	border-width: 2px;
 	border-color:darkgrey;}
@@ -228,6 +237,7 @@ h2{
 .footer-holder a:first-child
 {
 	border-width: 0px;}
+
 .spacer{
 	display:block;
 	height:1%;
@@ -300,9 +310,6 @@ h2{
 .footer-holder a{
 	font-size:12px;}
 
-.footer-holder a:first-child
-{
-	border-width: 0px;}
 .spacer{
 	display:block;
 	height:1%;
