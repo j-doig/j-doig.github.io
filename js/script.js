@@ -22,3 +22,17 @@ $(document).ready(function() {
         }); 
     }); 
 });
+
+$(document).ready(function(){
+	
+	'use strict';
+	
+	$('.button').click(function(){
+		$('.resp-menu').fadeToggle(600);
+	});
+	
+});
+
+
+
+
