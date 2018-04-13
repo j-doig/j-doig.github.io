@@ -28,7 +28,7 @@ $(document).ready(function(){
 	'use strict';
 	
 	$('.button').click(function(){
-		$('.resp-menu').fadeToggle(600);
+		$('.resp-menu').fadeToggle(800);
 	});
 	
 });
