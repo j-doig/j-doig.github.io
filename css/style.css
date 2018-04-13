@@ -145,9 +145,14 @@ h2{
 	background-size:cover;
 	height:100%;
 	display:flex;}
+.bus{
+	background: url(../img/bus.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:100%;
+	display:flex}
 
-
-.container{
+#container{
 	width:600px;
 	height:500px;
 	background:url(../img/switch.png)no-repeat left;
@@ -157,16 +162,40 @@ h2{
 	display:flex;
 	flex-direction:column;
 	align-items: center;
-	justify-content: center;
-	
-	}
+	justify-content: center;}
 
-.container p{
+#container p{
 	color:#FFFFFF;
 	font-family:"source-semi";
 	font-size: 100px;
 	letter-spacing: 10px;
 	}
+
+
+
+
+#container1{
+	width:600px;
+	height:500px;
+	background:url(../img/switch.png)no-repeat left;
+	background-size:cover; 
+	margin:auto;
+	display:none;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;}
+
+#container1 p{
+	color:#FFFFFF;
+	font-family:"source-semi";
+	font-size: 100px;
+	letter-spacing: 10px;
+	}
+
+
+
+
 
 .box1{
 	flex:1;
@@ -182,11 +211,7 @@ h2{
 	transform:translate(15%,-55%);
 	display:none;}
 
-.bus{
-	background: url(../img/bus.jpg)no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height:50%;}
+
 
 .map{
 	height:100vh;
@@ -369,10 +394,15 @@ h2{
 		height:100%;
 		width:auto;}
 	
-	.container{
+	#container{
 		width:300px;
 		height:250px;}
-	.container p{
+	#container p{
+	font-size: 30px;}
+	#container1{
+		width:300px;
+		height:250px;}
+	#container1 p{
 	font-size: 30px;}
 	
 	.nav2 {		
