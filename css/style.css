@@ -403,7 +403,7 @@ h2{
 		width:auto;}
 
 	.map{
-	height:750px;
+	height:600px;
 	background-color:#FFFFFF;
 	display:flex;
 	background:url(../img/map-back.jpg)no-repeat center;
@@ -430,7 +430,7 @@ h2{
 	background-size: contain;}
 	
 	.j-holder{
-		margin-top:20%;
+		margin-top:18%;
 		flex-wrap: wrap;}
 	.single{
 		width:100%;
