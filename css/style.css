@@ -225,8 +225,7 @@ h2{
 				height:80%;
 				margin:auto;
 				display:flex;
-				flex-direction:row;
-				flex-wrap: wrap;}
+				flex-direction:row;}
 
 .single{
 	width:50%;
@@ -387,6 +386,7 @@ h2{
 	
 	.j-holder{
 		margin-top:30%;
+		flex-wrap: wrap;
 	}
 	.single{
 		width:100%;
