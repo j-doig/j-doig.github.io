@@ -430,7 +430,7 @@ h2{
 	background-size: contain;}
 	
 	.j-holder{
-		margin-top:0%;
+		margin-top:20%;
 		flex-wrap: wrap;}
 	.single{
 		width:100%;
@@ -444,11 +444,10 @@ h2{
 		transform: translate(0,0);
 		background-size:contain;
 		bottom:0;
-		left:0;
-		margin:auto;
-		justify-content: center;
-		align-content: center;
-		
+		left:40%;
+		top:12%;}
+	header{
+		height:80px;
 	}
 	
 
