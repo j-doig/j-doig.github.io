@@ -238,6 +238,9 @@ h2{
 	background:url(../img/button.png)no-repeat;
 	background-size:cover;
 	margin:auto;}
+.button:hover{
+	opacity: 0.7;
+}
 
 
 				.close{
@@ -365,7 +368,9 @@ h2{
 	border-left:solid;
 	border-width: 2px;
 	border-color:darkgrey;}
-
+.footer-holder a:hover{
+	opacity: 0.5;
+}
 .footer-holder a:first-child{
 	border-width: 0px;}
 
