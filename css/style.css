@@ -1,31 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
-
+   /*Fonts*/
 @font-face{
 	font-family:"source-semi";
 	src: url("../font/SourceSansPro-Semibold.ttf");}
-
+/*body details*/
 #wrapper{
 	width:100%;
 	height:100%;
 	margin: 0;
 	padding: 0;}
-.hero .container .box1, .font1 {
-}
 
 body, html {
-    height: 100%;
-}
-
+    height: 100%;}
 body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 	background-color:#FFFFFF;}
-
 header{
 	background: rgba(199,199,199,0.50);
 	display:none;
@@ -35,6 +28,9 @@ header{
 	left: 0;
 	position: fixed;
 	z-index: 50;}
+
+   /*Nav*/
+
 nav{
 	width: 95%;
 	height: 80px;
@@ -52,72 +48,6 @@ nav{
 	background-image:url(../img/axa-logo.png);
 	background-size: contain;
 	float: left;}
-h1{
-	color:#FFFFFF;
-	letter-spacing: 5px;
-	margin:25px 0 0 0;
-	position: relative;
-	left:20px;
-	font-size: 20px;}
-h2{
-	text-align: center;
-	font-family:"source-semi";
-	color:white;
-	border: solid;
-	border-radius: 3px;
-	border-width: 1.5px;
-	border-color:#FFFFFF;
-	display: inline-block;
-	padding:4px;
-	
-}
-.breaker1{
-	background-color:cadetblue;
-	text-align: center;
-	padding:50px 80px;
-	border-top: solid;
-	border-bottom: solid;
-	border-radius: 3px;
-	border-width: 1.5px;
-	border-color:white;
-}
-.breaker1 p{
-	text-align: center;
-	font-family:"source-semi";
-	font-size: 20px;
-	color:#FFFFFF;
-}
-.breaker2 h2{
-	color:white;
-	border: solid;
-	border-radius: 3px;
-	border-width: 1.5px;
-	border-color:white;
-	display: inline-block;
-	padding:4px;
-}
-.breaker2{
-	border-top: solid;
-	border-bottom: solid;
-	border-radius: 3px;
-	border-width: 1.5px;
-	border-color:white;
-	background-color:coral;		
-	text-align: center;
-	padding:50px 80px;
-}
-.breaker2 p{
-	text-align: center;
-	font-family:"source-semi";
-	font-size: 20px;
-	color:#FFFFFF;
-}
-.visalink{
-	text-decoration: none;
-	text-decoration-style: none;
-	color:red;
-	
-}
 .nav2{
 	width:50%;
 	height:80px;
@@ -136,8 +66,69 @@ h2{
 	float: right;
 	margin:24px 0 0 0;}
 
+   /**/
+
+h1{
+	color:#FFFFFF;
+	letter-spacing: 5px;
+	margin:25px 0 0 0;
+	position: relative;
+	left:20px;
+	font-size: 20px;}
+h2{
+	text-align: center;
+	font-family:"source-semi";
+	color:white;
+	border: solid;
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-color:#FFFFFF;
+	display: inline-block;
+	padding:4px;}
 
 
+	/*Page breakers between fixed scroll paralax effect images*/
+
+.breaker1{
+	background-color:cadetblue;
+	text-align: center;
+	padding:50px 80px;
+	border-top: solid;
+	border-bottom: solid;
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-color:white;}
+.breaker1 p{
+	text-align: center;
+	font-family:"source-semi";
+	font-size: 20px;
+	color:#FFFFFF;}
+.breaker2 h2{
+	color:white;
+	border: solid;
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-color:white;
+	display: inline-block;
+	padding:4px;}
+.breaker2{
+	border-top: solid;
+	border-bottom: solid;
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-color:white;
+	background-color:coral;		
+	text-align: center;
+	padding:50px 80px;}
+.breaker2 p{
+	text-align: center;
+	font-family:"source-semi";
+	font-size: 20px;
+	color:#FFFFFF;}
+.visalink{
+	text-decoration: none;
+	text-decoration-style: none;
+	color:red;}
 
 .hero{
 	background:url(../img/rocks1.jpg)no-repeat center;
@@ -168,11 +159,7 @@ h2{
 	color:#FFFFFF;
 	font-family:"source-semi";
 	font-size: 100px;
-	letter-spacing: 10px;
-	}
-
-
-
+	letter-spacing: 10px;}
 
 #container1{
 	width:600px;
@@ -190,20 +177,14 @@ h2{
 	color:#FFFFFF;
 	font-family:"source-semi";
 	font-size: 100px;
-	letter-spacing: 10px;
-	}
-
-
+	letter-spacing: 10px;}
 
 #container1 .box3{
-	transform:translate(1%,-55%);
-}
-
+	transform:translate(1%,-55%);}
 .box1{
 	flex:1;
 	display:none;
-	transform: translate(75%,60%);
-	}
+	transform: translate(75%,60%);}
 .box2{
 	flex:1;
 	display:none;
@@ -212,9 +193,6 @@ h2{
 	flex:1;
 	transform:translate(15%,-60%);
 	display:none;}
-
-
-
 .map{
 	height:100vh;
 	background-color:#FFFFFF;
@@ -222,7 +200,6 @@ h2{
 	display:flex;
 	background:url(../img/map-back.jpg)no-repeat center;
 	background-size:cover;}
-
 #holder{
 	background:url(../img/map.jpg)no-repeat center;
 	background-size:cover;
@@ -230,8 +207,7 @@ h2{
 	height:80%;
 	background-color: red;
 	margin:auto;
-	display:flex;
-				}
+	display:flex;}
 .button{
 	width:400px;
 	height:100px;
@@ -239,9 +215,7 @@ h2{
 	background-size:cover;
 	margin:auto;}
 .button:hover{
-	opacity: 0.7;
-}
-
+	opacity: 0.7;}
 
 				.close{
 				width:80px;
@@ -252,11 +226,7 @@ h2{
 				position: absolute;
 				transform: translate(0,7%);
 				bottom:0;
-				left:47.5%;
-				
-				
-				}
-
+				left:47.5%;}
 
 			.resp-menu{
 				position:fixed;
@@ -275,7 +245,7 @@ h2{
 				position: relative;
 				flex-direction:row;}
 
-.single{
+#single{
 	width:50%;
 	height:100%;
 	display:flex;
@@ -306,7 +276,7 @@ h2{
 			height:40%;
 			display:flex;}
 
-.multi{
+#multi{
 	width:50%;
 	height:100%;
 	display:flex;
@@ -378,9 +348,67 @@ h2{
 	display:block;
 	height:1%;}
 
+/*Sing Trip Site*/
 
+#area-1{
+	height:100vh;
+	padding:0;
+	margin:0;
+	display:flex;
+	flex-direction: column;}
+#hero1{
+	flex:1 100%;
+	display:flex;
+	}
+.hero-holder{
+	width:75%;
+	height:70%;
+	margin:auto;
+	background:url(../img/single-hero.png)no-repeat;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;}
+.hero-holder p{
+	font-family:"source-semi";
+	color:#FFFFFF;
+	font-size:60px;
+	margin-top:0%;
+	display: none;
+	z-index: 5;}
+.js1{
+	display: none;}
+.area-1-info{
+	flex:2 100%;
+	display:flex;
+	flex-direction: row;
+	}
 
-
+.info-hero{
+	flex:1 30%;
+	display:flex;
+	justify-content:flex-end;
+	
+	}
+.info-hero1{
+	width:80%;
+	height:50%;
+	background:url(../img/passport.png)no-repeat;
+	background-size:cover;
+	display:none;
+	
+	
+	
+}
+.info1{
+	flex:1 35%;
+	background-color: yellow;
+}
+.info2{
+	flex:1 35%;
+	background-color: mediumvioletred;
+}
 
 
 
@@ -438,14 +466,12 @@ h2{
 		background:url(../img/bus.jpg)center;
 		height:700px;
 		width:auto;}
-
 	.map{
 	height:600px;
 	background-color:#FFFFFF;
 	display:flex;
 	background:url(../img/map-back.jpg)no-repeat center;
 	background-size:cover;}
-
 	#holder{
 	background:url(../img/map.jpg)no-repeat center;
 	background-size:cover;
@@ -453,10 +479,8 @@ h2{
 	height:40%;
 	background-color: red;
 	margin:auto;}
-
 .footer-holder a{
 	font-size:12px;}
-
 .spacer{
 	display:block;
 	height:1%;}
@@ -465,14 +489,13 @@ h2{
 	height:100px;
 	background:url(../img/button2.png)no-repeat;
 	background-size: contain;}
-	
 	.j-holder{
 		margin-top:18%;
 		flex-wrap: wrap;}
-	.single{
+	#single{
 		width:100%;
 		height:50%;}
-	.multi{
+	#multi{
 		width:100%;
 		height:50%;}
 	.close{
@@ -484,12 +507,20 @@ h2{
 		left:40%;
 		top:12%;}
 	header{
-		height:80px;
-	}
-	
+		height:80px;}
 	.resp-menu{
-		height:670px;
+		height:100%;}
+
+/*Single Trip Site*/
+	.hero-holder{
+	width:90%;
+	height:200px;
+	background:url(../img/single-hero.png)no-repeat center left;
 	}
+	.hero-holder p{
+		font-size:40px;
+	}
+		
 
 }
 	

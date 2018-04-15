@@ -8,6 +8,10 @@ $(document).ready(function () {
 	$('.box2').fadeIn(3000).removeClass('hidden');
 	$('.box3').fadeIn(4000).removeClass('hidden');
 	$('.breaker1 p').fadeIn(4000).removeClass('hidden');
+	$('.hero-holder p').fadeIn(3000).removeClass('hidden');
+	$('.js1').fadeIn(5000).removeClass('hidden');
+	$('.info-hero1').fadeIn(3000);
+	
 });
 
 $(document).ready(function() {   
@@ -17,7 +21,7 @@ $(document).ready(function() {
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();     
             if( bottom_of_window > bottom_of_object ){      
-                $(this).animate({'opacity':'1'},1000);               
+                $(this).animate({'opacity':'1'},2000);               
             }
         }); 
     }); 
