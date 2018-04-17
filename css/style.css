@@ -361,29 +361,45 @@ h2{
 	display:flex;
 	}
 .hero-holder{
-	width:75%;
-	height:70%;
-	margin:auto;
-	background:url(../img/single-hero.png)no-repeat;
-	background-size:cover;
+	background-color: red;
+	width:50%;
+	height:50%;
 	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	text-align:center;}
-.hero-holder p{
+	align-items: center;
+	justify-content: center;
+	margin:auto;
 	font-family:"source-semi";
 	color:#FFFFFF;
-	font-size:60px;
-	margin-top:0%;
+	font-size:3em;
+	background:url(../img/family.jpg)no-repeat;
+	background-size:cover;}
+.hero-text{
 	display: none;
-	z-index: 5;}
+	flex:1;
+	text-align: center;
+	margin:auto;
+
+	
+}
+.hero-holder p{
+	
+}
+
+
+	
 .js1{
 	display: none;}
 .area-1-info{
 	flex:2 100%;
 	display:flex;
 	flex-direction: row;
-	}
+	background: 
+				linear-gradient(63deg, #999 23%, transparent 23%) 7px 0, 
+				linear-gradient(63deg, transparent 74%, #999 78%), 
+				linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%), 
+				#444;
+	background-size: 16px 48px;
+		}
 
 .info-hero{
 	flex:1 30%;
@@ -394,20 +410,17 @@ h2{
 .info-hero1{
 	width:80%;
 	height:50%;
-	background:url(../img/passport.png)no-repeat;
-	background-size:cover;
-	display:none;
-	
-	
-	
-}
+	display:none;}
+.info-hero img{
+	width:100%;
+	height:auto;}
 .info1{
 	flex:1 35%;
-	background-color: yellow;
+
 }
 .info2{
 	flex:1 35%;
-	background-color: mediumvioletred;
+	
 }
 
 
@@ -520,7 +533,36 @@ h2{
 	.hero-holder p{
 		font-size:40px;
 	}
-		
+	
+	.area-1-info{
+	flex:2 100%;
+	display:flex;
+	flex-direction: column;
+	}
+
+.info-hero{
+	
+	display:flex;
+	justify-content:flex-end;
+	
+	}
+.info-hero1{
+	width:50%;
+	height:auto;
+	margin:auto;
+	display:none;}
+.info-hero img{
+	width:100%;
+	height:auto;}
+.info1{
+	flex:1 35%;
+	background-color: yellow;
+}
+.info2{
+	flex:1 35%;
+	background-color: mediumvioletred;
+}
+
 
 }
 	

@@ -11,6 +11,7 @@ $(document).ready(function () {
 	$('.hero-holder p').fadeIn(3000).removeClass('hidden');
 	$('.js1').fadeIn(5000).removeClass('hidden');
 	$('.info-hero1').fadeIn(3000);
+	$('.hero-text').fadeIn(3000).removeClass('hidden');
 	
 });
 
