@@ -38,6 +38,14 @@ $(document).ready(function(){
 	
 });
 
-
+$(document).ready(function(){
+	'use strict';
+  $('.your-class').slick({
+      slidesToShow: 1,
+  	slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  });
+});
 
 
