@@ -18,7 +18,8 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	background-color:#FFFFFF;}
+	background-color:#FFFFFF;
+	font-family:"source-semi";}
 header{
 	background: rgba(199,199,199,0.50);
 	display:none;
@@ -220,18 +221,7 @@ h2{
 .button:hover{
 	opacity: 0.7;}
 
-				.close{
-				width:80px;
-				height:80px;
-				background:url(../img/close.png)no-repeat;
-				background-size:contain;
-				display:block;
-				position: absolute;
-				transform: translate(0,7%);
-				bottom:0;
-				left:47.5%;}
-
-			.resp-menu{
+			#resp-menu{
 				position:fixed;
 				width: 100%;
 				height:100vh;
@@ -239,84 +229,26 @@ h2{
 				top:0;
 				left: 0;
 				display:none;}
-			.j-holder{
-				width:90%;
-				height:80%;
-				margin:auto;
-				display:flex;
-				top:10%;
-				position: relative;
-				flex-direction:row;}
+			
+#exit{
+	width:2%;
+	height:4%;
+	background-color: coral;
+	float:right;
+	text-align:center;}
+#exit:hover{
+	background-color:rgba(255,255,255,0.50);
+}
+#exit p:hover{
+	color:#000000;
+}
+#exit p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	color:#FFFFFF;}
 
-#single{
-	width:50%;
-	height:100%;
-	display:flex;
-	flex-direction:column;
-	border:solid;
-	border-width: 3px;
-	border-color:#FFFFFF;}
-		.single-image{
-			width:90%;
-			height:60%;
-			background:url(../img/bag.jpg)no-repeat;
-			background-size: cover;
-			margin:auto;
-			-webkit-transition: -webkit-transform 0.4s ease;
- 			-moz-transition: -moz-transform 0.4s ease;
- 			-o-transition: -o-transform 0.4s ease;
- 			transition: transform 0.4s ease;}
 
-.single-image:hover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);}
-		
-.single-text{
-			width:100%;
-			height:40%;
-			display:flex;}
-
-#multi{
-	width:50%;
-	height:100%;
-	display:flex;
-	flex-direction:column;
-	border:solid;
-	border-width: 3px;
-	border-color:#FFFFFF;}
-		.multi-image{
-			width:90%;
-			height:60%;
-			background:url(../img/road.jpg)no-repeat;
-			background-size:cover;
-			margin:auto;
-			-webkit-transition: -webkit-transform 0.4s ease;
- 			-moz-transition: -moz-transform 0.4s ease;
- 			-o-transition: -o-transform 0.4s ease;
- 			transition: transform 0.4s ease;}
-.multi-image:hover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);}
-		
-.multi-text{
-			margin:0;
-			display:flex;
-			width:100%;
-			height:40%;}
-
-.single-text p, .multi-text p{
-	margin:auto;
-	font-size:25px;
-	text-decoration: none;
-	color:#FFFFFF;
-	font-family:"source-semi";
-	text-align: center;}
 
 
 .hideme{
@@ -472,11 +404,25 @@ h2{
 #area-2{
 	width:100%;
 	height:100vh;
-	background-color:red;
-	}
+	background-color:beige;}
 
 
-
+#carosel-container{
+	height:auto;
+	width:100%;}
+#carosel-title{
+	height:15%;
+	width:100%;
+	display:flex;
+	background-color:coral;}
+#carosel-title p{
+	color:#FFFFFF;
+	font-size:30px;
+	padding:0;
+	margin:auto;}
+.spacer1{
+	width:100%;
+	height:10%;}
 
 @media (max-width: 1500px){
 	.info1 p{font-size:25px;}
@@ -537,7 +483,7 @@ h2{
 		height:700px;
 		width:auto;}
 	.map{
-	height:600px;
+	height:700px;
 	background-color:#FFFFFF;
 	display:flex;
 	background:url(../img/map-back.jpg)no-repeat center;
@@ -557,6 +503,7 @@ h2{
 .button{
 	width:200px;
 	height:100px;
+	transform:translate(0,20%);
 	background:url(../img/button2.png)no-repeat;
 	background-size: contain;}
 	.j-holder{
@@ -578,8 +525,12 @@ h2{
 		top:12%;}
 	header{
 		height:80px;}
-	.resp-menu{
-		height:100%;}
+	
+	
+	#exit{
+		width:10%;
+		height:5%;
+	}
 
 /*Single Trip Site*/
 	#hero1{

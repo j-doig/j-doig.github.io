@@ -1,6 +1,6 @@
 // JavaScript Document
 
-
+//FONT & IMG FADE IN
 $(document).ready(function () {
    'use strict';
 	$('header').fadeIn(2000).removeClass('hidden');
@@ -10,11 +10,10 @@ $(document).ready(function () {
 	$('.breaker1 p').fadeIn(4000).removeClass('hidden');
 	$('.hero-holder p').fadeIn(3000).removeClass('hidden');
 	$('.js1').fadeIn(5000).removeClass('hidden');
-	$('#hero1 p').fadeIn(3000).removeClass('hidden');
-
-	
+	$('#hero1 p').fadeIn(3000).removeClass('hidden');	
 });
 
+// ON DIV SCROLL FADE IN
 $(document).ready(function() {   
     'use strict';
     $(window).scroll( function(){   
@@ -22,30 +21,52 @@ $(document).ready(function() {
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();     
             if( bottom_of_window > bottom_of_object ){      
-                $(this).animate({'opacity':'1'},2000);               
-            }
+                $(this).animate({'opacity':'1'},2000);}
         }); 
     }); 
 });
 
+// MAP BUTTON CLICKED - FADE IN RESPON MENU
 $(document).ready(function(){
-	
 	'use strict';
-	
 	$('.button').click(function(){
-		$('.resp-menu').fadeToggle(800);
+		$('#resp-menu').fadeToggle(800);
 	});
-	
-});
+	});
 
 $(document).ready(function(){
 	'use strict';
-  $('.your-class').slick({
-      slidesToShow: 1,
-  	slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 10000,
-  });
-});
+	$('#exit').click(function(){
+		$('#resp-menu').fadeOut(800);
+	});
+	});
+
+
+
+
+
+
+
+// THE AMAZING DISAPPEARING NAV EFFECT - REAPPEAR ON SCROLL MAX TOP
+   $(window).resize(function() {
+	   'use strict';
+   $("wrapper").height($(window).height());
+   });
+
+   (function ($) {
+	   'use strict';
+     $(document).ready(function(){
+       $(function () {
+         $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+              $('header').fadeOut();
+           } else {
+              $('header').fadeIn();}
+       });
+    });   	   
+});   
+}(jQuery));
+
+
 
 
