@@ -221,35 +221,99 @@ h2{
 .button:hover{
 	opacity: 0.7;}
 
-			#resp-menu{
-				position:fixed;
-				width: 100%;
-				height:100vh;
-				background: rgba(199,199,199,0.95);
-				top:0;
-				left: 0;
-				display:none;}
-			
+	#resp-menu{
+		position:fixed;
+		width: 100%;
+		height:100vh;	
+		background: rgba(199,199,199,0.8);
+		top:0;
+		left: 0;
+		opacity: 0.96;
+		display:none;/*display: none*/}
+	
+#trip-title{
+	width:100%;
+	height:15%;
+	display: flex;}
+#trip-title p{
+	margin:auto;
+	justify-content: center;
+	color:#FFFFFF;
+	align-content: center;
+	font-size:40px;
+	padding:10px;
+	background-color:rgba(255,127,80,0.7);
+	border:solid;
+	border-width:3px;
+	border-radius: 10px;
+	border-color:#FFFFFF;}
+#trip-holder{
+	width:100%;
+	height:85%;
+	background-color:pink;}
+#trip-holder p{
+	color:#FFFFFF;
+	font-size:50px;
+	margin:auto;
+	text-align: center;
+	padding-top:180px;
+	padding-bottom:180px;}
+a {
+	text-decoration:none;
+}		
+		#trip1{
+			width:50%;
+			height:50%;
+			float:left;
+			background:url(../img/trip1.jpg)no-repeat;
+			background-size:cover;
+			opacity: 0.8;}
+#trip1:hover{
+	opacity:1;}
+		#trip2{
+			width:50%;
+			height:50%;
+			float:right;
+			background:url(../img/trip2.jpg)no-repeat;
+			background-size:cover;
+			opacity: 0.8;}
+#trip2:hover{
+	opacity:1;}
+		#trip3{
+			width:50%;
+			height:50%;
+			background:url(../img/trip3.jpg)no-repeat;
+			background-size:cover;
+			float: left;
+			opacity: 0.8;}
+#trip3:hover{
+	opacity:1;}
+		#trip4{
+			width:50%;
+			height:50%;
+			float: left;
+			background:url(../img/trip4.jpg)no-repeat;
+			background-size:cover;
+			opacity: 0.8;}
+#trip4:hover{
+	opacity:1;}
+
 #exit{
 	width:2%;
 	height:4%;
 	background-color: coral;
 	float:right;
+	position: relative;
 	text-align:center;}
 #exit:hover{
-	background-color:rgba(255,255,255,0.50);
-}
+	background-color:rgba(255,255,255,0.50);}
 #exit p:hover{
-	color:#000000;
-}
+	color:#000000;}
 #exit p{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: 0;
 	color:#FFFFFF;}
-
-
-
 
 .hideme{
 	opacity:0;}
@@ -274,11 +338,9 @@ h2{
 	border-width: 2px;
 	border-color:darkgrey;}
 .footer-holder a:hover{
-	opacity: 0.5;
-}
+	opacity: 0.5;}
 .footer-holder a:first-child{
 	border-width: 0px;}
-
 .spacer{
 	display:block;
 	height:1%;}
@@ -529,8 +591,53 @@ h2{
 	
 	#exit{
 		width:10%;
-		height:5%;
-	}
+		height:5%;}
+	
+	#resp-menu{
+		position:fixed;
+		width: 100%;
+		height:100vh;
+		background: rgba(199,199,199,0.95);
+		top:0;
+		left: 0;
+		/*display: none*/}
+	
+#trip-title{
+	width:100%;
+	height:15%;
+	background-color: yellow;}
+#trip-holder{
+	width:100%;
+	height:85%;
+	background-color:pink;}
+
+		#trip1{
+			width:100%;
+			height:25%;
+			float:left;
+			background:url(../img/trip1.jpg)no-repeat;
+			background-size:cover;
+			}
+		#trip2{
+			width:100%;
+			height:25%;
+			float: left;
+			background:url(../img/trip2.jpg)no-repeat;
+			background-size:cover;}
+		#trip3{
+			width:100%;
+			height:25%;
+			background:url(../img/trip3.jpg)no-repeat;
+			background-size:cover;
+			float: left;}
+		#trip4{
+			width:100%;
+			height:25%;
+			float: left;
+			background:url(../img/trip4.jpg)no-repeat;
+			background-size:cover;
+			background-color:orange;}
+
 
 /*Single Trip Site*/
 	#hero1{
