@@ -237,9 +237,8 @@ h2{
 	display: flex;}
 #trip-title p{
 	margin:auto;
-	justify-content: center;
+	align-content:center;
 	color:#FFFFFF;
-	align-content: center;
 	font-size:40px;
 	padding:10px;
 	background-color:rgba(255,127,80,0.7);
@@ -259,8 +258,7 @@ h2{
 	padding-top:180px;
 	padding-bottom:180px;}
 a {
-	text-decoration:none;
-}		
+	text-decoration:none;}		
 		#trip1{
 			width:50%;
 			height:50%;
@@ -568,23 +566,7 @@ a {
 	transform:translate(0,20%);
 	background:url(../img/button2.png)no-repeat;
 	background-size: contain;}
-	.j-holder{
-		margin-top:18%;
-		flex-wrap: wrap;}
-	#single{
-		width:100%;
-		height:50%;}
-	#multi{
-		width:100%;
-		height:50%;}
-	.close{
-		width:100%;
-		height:50px;
-		transform: translate(0,0);
-		background-size:contain;
-		bottom:0;
-		left:40%;
-		top:12%;}
+
 	header{
 		height:80px;}
 	
@@ -593,50 +575,46 @@ a {
 		width:10%;
 		height:5%;}
 	
-	#resp-menu{
+
+#resp-menu{
 		position:fixed;
 		width: 100%;
-		height:100vh;
-		background: rgba(199,199,199,0.95);
+		height:100vh;	
+		background: rgba(199,199,199,0.9);
 		top:0;
 		left: 0;
-		/*display: none*/}
-	
+		opacity:1;
+		display:none;/*display: none*/}	
 #trip-title{
 	width:100%;
-	height:15%;
-	background-color: yellow;}
+	height:10%;}
+#trip-title p{
+	font-size:15px;
+	opacity:1;
+	transform:translate(0,-30%);}
+#trip-holder p{
+	padding-top:50px;
+	padding-bottom:50px;
+	font-size: 30px;}
 #trip-holder{
 	width:100%;
 	height:85%;
-	background-color:pink;}
+	opacity:1;}
 
 		#trip1{
 			width:100%;
 			height:25%;
-			float:left;
-			background:url(../img/trip1.jpg)no-repeat;
-			background-size:cover;
-			}
+			opacity:1}
 		#trip2{
 			width:100%;
 			height:25%;
-			float: left;
-			background:url(../img/trip2.jpg)no-repeat;
-			background-size:cover;}
+			float: left;}
 		#trip3{
 			width:100%;
-			height:25%;
-			background:url(../img/trip3.jpg)no-repeat;
-			background-size:cover;
-			float: left;}
+			height:25%;}
 		#trip4{
 			width:100%;
-			height:25%;
-			float: left;
-			background:url(../img/trip4.jpg)no-repeat;
-			background-size:cover;
-			background-color:orange;}
+			height:25%;}
 
 
 /*Single Trip Site*/
