@@ -587,11 +587,11 @@ a {
 		display:none;/*display: none*/}	
 #trip-title{
 	width:100%;
-	height:10%;}
+	height:7%;}
 #trip-title p{
 	font-size:15px;
 	opacity:1;
-	transform:translate(0,-30%);}
+	transform:translate(0,0);}
 #trip-holder p{
 	padding-top:50px;
 	padding-bottom:50px;
