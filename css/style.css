@@ -589,7 +589,7 @@ a {
 		display:none;/*display: none*/}	
 #trip-title{
 	width:100%;
-	height:4%;}
+	height:3%;}
 #trip-title1{
 		transform: translate(0,0);
 		width:180px;
@@ -598,7 +598,7 @@ a {
 #trip-title p{
 	font-size:15px;
 	opacity:1;
-	transform:translate(0,10%);}
+	transform:translate(0,1%);}
 #trip-holder p{
 	padding-top:50px;
 	padding-bottom:50px;
