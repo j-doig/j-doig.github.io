@@ -233,14 +233,16 @@ h2{
 	
 #trip-title{
 	width:100%;
-	height:15%;
-	display: flex;}
-#trip-title p{
+	height:15%;}
+#trip-title1{
+	width:500px;
+	height:100px;
 	margin:auto;
-	align-content:center;
+	transform:translate(0,20%);}
+#trip-title1 p{
+	text-align: center;
 	color:#FFFFFF;
 	font-size:40px;
-	padding:10px;
 	background-color:rgba(255,127,80,0.7);
 	border:solid;
 	border-width:3px;
@@ -588,10 +590,15 @@ a {
 #trip-title{
 	width:100%;
 	height:7%;}
+#trip-title1{
+		transform: translate(0,0);
+		width:180px;
+		height:50px;
+	}
 #trip-title p{
 	font-size:15px;
 	opacity:1;
-	transform:translate(0,0);}
+	transform:translate(0,80%);}
 #trip-holder p{
 	padding-top:50px;
 	padding-bottom:50px;
