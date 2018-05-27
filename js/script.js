@@ -10,7 +10,7 @@ $(document).ready(function () {
 	$('.breaker1 p').fadeIn(4000).removeClass('hidden');
 	$('.hero-holder p').fadeIn(3000).removeClass('hidden');
 	$('.js1').fadeIn(5000).removeClass('hidden');
-	$('#hero1 p').fadeIn(3000).removeClass('hidden');	
+	$('#hero1 p').fadeIn(1000).removeClass('hidden');	
 });
 
 // ON DIV SCROLL FADE IN
